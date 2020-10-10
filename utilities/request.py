@@ -12,12 +12,14 @@ def query_one_user(key,username): #get request
 
     url=pytest.config['URL']['UserInformation']
     req = requests.get(url+ key + "=" + username)
+    set_status_instance(req.status_code)
     print("QueryUserInformation API: "+req.text)
     try:
         set_payload_instance(req.json())
         #payload.set_instance(req.json())
     except Exception:
         print("QueryUserInformation API response is not json")
+    print("Response code of Query User Information for username "+username+" is "+str(req.status_code))
     return req
 
 def signup_a_user(info_dict): #post request
@@ -25,12 +27,16 @@ def signup_a_user(info_dict): #post request
     url = pytest.config['URL']['SignUp']
     req = requests.post(url, headers=header, data=info_dict)
     set_status_instance(req.status_code)
+    print("Response code of SignUp request is " + str(req.status_code))
     #res_status.set_instance(req.status_code)
-    print("SignUp API: " + req.text)
-    logger.info("Response code control for SignUp API")
-    assert get_status_instance() == int(pytest.config['STATUS_CODES']['Created']), logger.error(
-        pytest.config['RESPONSE_MSG']['SignUpFailed'])
-    logger.info("SignUp API successful")
+    if (get_status_instance()== int(pytest.config['STATUS_CODES']['BadRequest'])):
+        print("SignUp operation failed")
+    else:
+        print("SignUp API: " + req.text)
+        logger.info("Response code control for SignUp API")
+        assert get_status_instance() == int(pytest.config['STATUS_CODES']['Created']), logger.error(
+            pytest.config['RESPONSE_MSG']['SignUpFailed'])
+        logger.info("SignUp API successful")
 
 def delete_user(): #delete request
 

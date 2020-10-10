@@ -31,6 +31,9 @@ def signup_api_executed_with_for_a_new_user_with_info_dict_infos(info_dict):
 def signup_and_query_operation_for_username_is_successful(username):
     """Signup and query operation for <username> is successful."""
     query_one_user("username",username)
-    ret=check_QueryInfoResponse(get_payload_instance(),username)
-    assert ret==True,logger.error(pytest.config['RESPONSE_MSG']['NewUserCantFound'])
+    if (get_status_instance()==int(pytest.config['STATUS_CODES']['OK'])):
+        ret=check_QueryInfoResponse(get_payload_instance(),username)
+        assert ret==True,logger.error(pytest.config['RESPONSE_MSG']['NewUserCantFound'])
+    else:
+        logger.error("User with username "+username+" cannot be found")
 

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3833144-3f6c-40bf-b3f3-d44ec5115191" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iQZQA94DoWt3gyf9nH7QYDfyAA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/utilities" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/utilities" />
+      <recent name="$PROJECT_DIR$/steps/DeleteUser" />
+      <recent name="$PROJECT_DIR$/features/DeleteUser" />
+      <recent name="$PROJECT_DIR$/steps/QueryUserInformation" />
+      <recent name="$PROJECT_DIR$/steps/SignUp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/features/SignUp" />
+      <recent name="$PROJECT_DIR$/steps/SignUp" />
+      <recent name="$PROJECT_DIR$/steps/Query User Information" />
+      <recent name="$PROJECT_DIR$/features/QueryUserInformation" />
+      <recent name="$PROJECT_DIR$/steps" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.demo_test_delete">
+    <configuration name="ciko" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps/DeleteUser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/DeleteUser/ciko.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_delete_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps/DeleteUser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/DeleteUser/demo_delete_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="demo_test_delete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps/DeleteUser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/DeleteUser/demo_test_delete.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_delete_user (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps/DeleteUser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/DeleteUser/test_delete_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_delete_user" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="python_API_Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/steps/Delete User" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/steps/Delete User/test_delete_user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.demo_test_delete" />
+        <item itemvalue="Python.ciko" />
+        <item itemvalue="Python.demo_delete_user" />
+        <item itemvalue="Python.test_delete_user (1)" />
+        <item itemvalue="Python.test_delete_user" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3833144-3f6c-40bf-b3f3-d44ec5115191" name="Default Changelist" comment="" />
+      <created>1601841759377</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601841759377</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="590" y="157" key="#Inspections" timestamp="1601845820653">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state x="590" y="157" key="#Inspections/0.0.1920.954@0.0.1920.954" timestamp="1601845820653" />
+    <state x="665" y="279" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601845129234">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state x="665" y="279" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.954@0.0.1920.954" timestamp="1601845129234" />
+    <state width="1232" height="485" key="DebuggerActiveHint" timestamp="1601929719400">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1232" height="485" key="DebuggerActiveHint/0.0.1920.954@0.0.1920.954" timestamp="1601929719400" />
+    <state x="744" y="232" key="FileChooserDialogImpl" timestamp="1602357839398">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state x="744" y="232" key="FileChooserDialogImpl/0.0.1920.954@0.0.1920.954" timestamp="1602357839398" />
+    <state width="1899" height="151" key="GridCell.Tab.0.bottom" timestamp="1601996646721">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.bottom/0.0.1920.954@0.0.1920.954" timestamp="1601996646721" />
+    <state width="1899" height="151" key="GridCell.Tab.0.center" timestamp="1601996646718">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.center/0.0.1920.954@0.0.1920.954" timestamp="1601996646718" />
+    <state width="1899" height="151" key="GridCell.Tab.0.left" timestamp="1601996646715">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.left/0.0.1920.954@0.0.1920.954" timestamp="1601996646715" />
+    <state width="1899" height="151" key="GridCell.Tab.0.right" timestamp="1601996646720">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="151" key="GridCell.Tab.0.right/0.0.1920.954@0.0.1920.954" timestamp="1601996646720" />
+    <state width="1899" height="172" key="GridCell.Tab.1.bottom" timestamp="1601996580645">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="172" key="GridCell.Tab.1.bottom/0.0.1920.954@0.0.1920.954" timestamp="1601996580645" />
+    <state width="1899" height="172" key="GridCell.Tab.1.center" timestamp="1601996580644">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="172" key="GridCell.Tab.1.center/0.0.1920.954@0.0.1920.954" timestamp="1601996580644" />
+    <state width="1899" height="172" key="GridCell.Tab.1.left" timestamp="1601996580643">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="172" key="GridCell.Tab.1.left/0.0.1920.954@0.0.1920.954" timestamp="1601996580643" />
+    <state width="1899" height="172" key="GridCell.Tab.1.right" timestamp="1601996580645">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state width="1899" height="172" key="GridCell.Tab.1.right/0.0.1920.954@0.0.1920.954" timestamp="1601996580645" />
+    <state x="450" y="109" key="SettingsEditor" timestamp="1601922367310">
+      <screen x="0" y="0" width="1920" height="954" />
+    </state>
+    <state x="450" y="109" key="SettingsEditor/0.0.1920.954@0.0.1920.954" timestamp="1601922367310" />
+  </component>
+</project>

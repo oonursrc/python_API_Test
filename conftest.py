@@ -25,7 +25,7 @@ def pytest_bdd_after_scenario(request, feature, scenario):
     print("----Scenario end----\n")
 
 def pytest_bdd_before_step(request, feature, scenario, step, step_func):
-    """Called before step function is set up."""
+    """Called before step function is set up.."""
 
 
 def pytest_bdd_before_step_call(request, feature, scenario, step, step_func, step_func_args):
@@ -45,4 +45,4 @@ def pytest_bdd_step_validation_error(request, feature, scenario, step, step_func
 
 
 def pytest_bdd_step_func_lookup_error(request, feature, scenario, step, exception):
-    """Called when step lookup failed."""
+    """Called when step lookup failed.."""
